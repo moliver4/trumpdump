@@ -1,9 +1,9 @@
 import React from 'react';
 
-const ArticlesCard= ( props ) => {
+const ArticlesCard= ( { article } ) => {
     return (
       <div className='ArticlesCard'>
-        <div> {props.article}</div>
+        <div> {article}</div>
       </div>
   
     );
