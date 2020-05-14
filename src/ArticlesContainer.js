@@ -6,11 +6,11 @@ const ArticlesContainer = ( props ) => {
     
     const showArticles = () => {
       let example =  props.articlesList.map( (article, index) => {
-        console.log(article.title)
+
         return <ArticleCard article={article.title} key={index}/>
       })
       
-      console.log('example:', example)
+
       return example
     }
 
